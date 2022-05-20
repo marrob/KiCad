@@ -1,0 +1,281 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP Capacitator_0603_100nF_X7R
+D Capacitator, 100nF, 50V, 10%, X7R, SMT, 0603
+K Capacitator 100nF
+$ENDCMP
+#
+$CMP Capacitator_0603_10nF_X7R
+D Capacitator, 10nF, 50V, 10%, X7R, SMT, 0603
+K Capacitator
+$ENDCMP
+#
+$CMP Capacitator_0603_10uF_X5R
+D Capacitator, 10uF, 10V, 10%, X5R, SMT, 0603
+K Capacitator 10uF
+$ENDCMP
+#
+$CMP Capacitator_0603_1nF_NP0
+D Capacitator, 1nF, 50V, 5%, NP0, SMT, 0603
+K Capacitator
+$ENDCMP
+#
+$CMP Capacitator_0603_1uF_X7R
+D Capacitator, 1uF, 16V, 10%, X7R, SMT, 0603
+$ENDCMP
+#
+$CMP Capacitator_0603_2.2uF_X5R
+D Capacitator, 2.2uF, 6.3V, 10%, X5R, SMT, 0603
+K Capacitator 2.2uF
+$ENDCMP
+#
+$CMP Capacitator_0603_22pF_NP0
+D Capacitator, 22pF, 50V, 5%, NP0, SMT, 0603
+K Capacitator
+$ENDCMP
+#
+$CMP Capacitator_0603_47nF_X7R
+D Capacitator, 47nF, 50V, 10%, X7R, SMT, 0603
+K Capacitator
+$ENDCMP
+#
+$CMP Capacitator_0603_47pF_X7R
+D Capacitator, 47pF, 50V, 5%, NP0, SMT, 0603
+K Capacitator 47pF
+$ENDCMP
+#
+$CMP Capacitator_0805_100nF_X7R
+D Capacitator, 100nF, 50V, 10%, X7R, SMT, 0805
+K Capacitator 100nF
+$ENDCMP
+#
+$CMP Capacitator_0805_10nF_C0G
+D Capacitator, 10nF, 50V, 10%, C0G, SMT, 0805
+K Capacitator 10nF
+$ENDCMP
+#
+$CMP Capacitator_0805_10uF_X5R
+D Capacitator, 10uF, 16V, 10%, X5R, SMT, 0805
+K Capacitator 10uF
+$ENDCMP
+#
+$CMP Capacitator_0805_1uF_X7R
+D Capacitator, 1uF, 16V, 10%, X7R, SMT, 0603
+K Capacitator 1uF
+$ENDCMP
+#
+$CMP Capacitator_0805_22pF_X7R
+D Capacitator, 22pF, 50V, 5%, NP0, SMT, 0805
+K Capacitator 22pF
+$ENDCMP
+#
+$CMP Crystal_HC49SM_8MHz
+D Crystal, 8MHz, SMT, HC49SM
+K quartz
+F ~
+$ENDCMP
+#
+$CMP Crystal_HC49U_11.0592MHz
+D Crystal, 11.0592MHz,THT, HC49U
+K quartz
+F ~
+$ENDCMP
+#
+$CMP Crystal_SMD3225_12MHz
+D Crystal, 8MHz, SMT, 3.2x2.5mm
+F ${KNV_DATASHEET}\NSK NXK-32.pdf
+$ENDCMP
+#
+$CMP Diode_STPS340U
+D Diode, SMT, DO-214AA
+K diode
+F ${KNV_DATASHEET}\.pdf
+$ENDCMP
+#
+$CMP Diode_copy
+D Diode
+K diode
+F ~
+$ENDCMP
+#
+$CMP Filter_0603_CB03YTYH101
+D Filter, 2.5A, 100R, SMT, 0603
+F ${KNV_DATASHEET}\VIKING CB.pdf
+$ENDCMP
+#
+$CMP Filter_0805_BLM21A102SPT
+D Filter, 200mA, 1K00, SMT, 0805
+F ${KNV_DATASHEET}\MURATA BLM21A.pdf
+$ENDCMP
+#
+$CMP Inductor_0805_10uH
+D Inductor, 10uH, 60mA, SMT, 0805
+K inductor choke coil reactor magnetic
+F ${KNV_DATASHEET}\MURATA LQM21FN100N00L.PDF
+$ENDCMP
+#
+$CMP Inductor_THT_200uH
+D Inductor, 200uH, ?mA, THT, custom
+K inductor choke coil reactor magnetic
+$ENDCMP
+#
+$CMP LED_0603_Blue
+D LED, Blue, SMT, 0603
+K LED Green
+$ENDCMP
+#
+$CMP LED_0603_Green
+D LED, Green, SMT, 0603
+K LED Green
+$ENDCMP
+#
+$CMP LED_0805_Green
+D LED, Green, SMT, 0805
+K LED Green
+$ENDCMP
+#
+$CMP NTC_0603_10K
+D NTC, 10K, SMT, 0603
+K NTC
+F ${KNV_DATASHEET}\SR PASSIVES NTC0603-10K-B2.pdf
+$ENDCMP
+#
+$CMP PolCap
+D PolCap
+K cap capacitor
+F ~
+$ENDCMP
+#
+$CMP Polyfuse_1812_1100mA_33V
+D Multifuse, 1100mA, 33V, SMT, 1812
+K resettable fuse PTC PPTC polyfuse polyswitch
+F ${KNV_DATASHEET}\Littelfuse 1812L.pdf
+$ENDCMP
+#
+$CMP Q_NMOS_GSD
+D N-MOSFET transistor, gate/source/drain
+K transistor NMOS N-MOS N-MOSFET
+F ~
+$ENDCMP
+#
+$CMP Resistor_0603_0R00
+D Resistor, 0R00, 0.1W, 5%, SMT, 0603
+K Resistor
+$ENDCMP
+#
+$CMP Resistor_0603_10K0
+D Resistor, 10K0, 0.125W, 1%, SMT, 0603
+K Resistor
+$ENDCMP
+#
+$CMP Resistor_0603_10R0
+D Resistor, 10R0, 0.125W, 1%, SMT, 0603
+K Resistor
+$ENDCMP
+#
+$CMP Resistor_0603_11K0
+D Resistor, 11K0, 0.125W, 1%, SMT, 0603
+K Resistor
+$ENDCMP
+#
+$CMP Resistor_0603_13K0
+D Resistor, 13K0, 0.125W, 1%, SMT, 0603
+K Resistor
+$ENDCMP
+#
+$CMP Resistor_0603_150K
+D Resistor, 150K, 0.125W, 1%, SMT, 0603
+K Resistor 150K
+$ENDCMP
+#
+$CMP Resistor_0603_1K00
+D Resistor, 1K00, 0.1W, 1%, SMT, 0603
+K Resistor
+$ENDCMP
+#
+$CMP Resistor_0603_220R
+D Resistor, 220R, 0.125W, 1%, SMT, 0603
+K Resistor 220R
+$ENDCMP
+#
+$CMP Resistor_0603_27R0
+D Resistor, 27R0, 0.125W, 1%, SMT, 0603
+K Resistor 27R0
+$ENDCMP
+#
+$CMP Resistor_0603_39K0
+D Resistor, 39K0, 0.125W, 1%, SMT, 0603
+K Resistor
+$ENDCMP
+#
+$CMP Resistor_0603_470R
+D Resistor, 470R, 0.125W, 1%, SMT, 0603
+K Resistor 470R
+$ENDCMP
+#
+$CMP Resistor_0603_4K70
+D Resistor, 4K70, 0.1W, 1%, SMT, 0603
+K Resistor
+$ENDCMP
+#
+$CMP Resistor_0603_9K10
+D Resistor, 9K10, 0.125W, 1%, SMT, 0603
+K Resistor
+$ENDCMP
+#
+$CMP Resistor_0603_R_DNP
+D Resistor, Do Not Populate, 0603
+K Resistor
+$ENDCMP
+#
+$CMP Resistor_0805_0R00
+D Resistor, 0R00, 0.125W, 5%, SMT, 0805
+K Resistor 0R00
+$ENDCMP
+#
+$CMP Resistor_0805_10K0
+D Resistor, 10K0, 0.125W, 1%, SMT, 0805
+K Resistor 10K0
+$ENDCMP
+#
+$CMP Resistor_0805_1R00
+D Resistor, 1R00, 0.125W, 1%, SMT, 0805
+K Resistor 1R00
+$ENDCMP
+#
+$CMP Resistor_0805_220R
+D Resistor, 220R, 0.125W, 1%, SMT, 0805
+K Resistor 220R
+$ENDCMP
+#
+$CMP Resistor_0805_2K20
+D Resistor, 2K20, 0.125W, 1%, SMT, 0805
+K Resistor 2K20
+$ENDCMP
+#
+$CMP Resistor_0805_470R
+D Resistor, 470R, 0.125W, 1%, SMT, 0805
+K Resistor 470R
+$ENDCMP
+#
+$CMP Resistor_0805_4K70
+D Resistor, 4K70, 0.125W, 1%, SMT, 0805
+K Resistor 4K70
+$ENDCMP
+#
+$CMP Resistor_0805_6K80
+D Resistor, 6K80, 0.125W, 1%, SMT, 0805
+K Resistor 6K80
+$ENDCMP
+#
+$CMP Resistor_0805_R_DNP
+D Resistor, Do Not Populate, 0805
+K Resistor
+$ENDCMP
+#
+$CMP Switch_DPST
+K switch lever
+F ${KNV_DATASHEET}\.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,26 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP PinHeader_01x01_Male
+D Connector Pin Header, 01x01, 2.54, 90, Male, THT
+K PICKit  STLink
+F ~
+$ENDCMP
+#
+$CMP PinHeader_01x02_Male
+D Connector Pin Header, 01x02, 2.54, 180, Male, THT
+F ~
+$ENDCMP
+#
+$CMP PinHeader_01x06_Male
+D Connector Pin Header, 01x06, 2.54, 180, Male, THT
+K PICKit  STLink
+F ~
+$ENDCMP
+#
+$CMP USB-B-04PFHTW
+D Connector USB, USB B, Socket , 90°, THT
+K connector USB
+F ${KNV_DATASHEET}\T-T USB-B-04PFHTW.pdf
+$ENDCMP
+#
+#End Doc Library

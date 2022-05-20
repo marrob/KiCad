@@ -1,0 +1,94 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# PinHeader_01x01_Male
+#
+DEF PinHeader_01x01_Male J 0 40 Y N 1 F N
+F0 "J" 10 70 50 H V C CNN
+F1 "PinHeader_01x01_Male" 60 -260 50 H I C CNN
+F2 "Connectors:PinHeader_1x01_P2.54mm_Horizontal" 35 -190 50 H I C CNN
+F3 "" 100 40 50 H I C CNN
+F4 "PinHeader_01x01_Male" 10 -335 50 H I C CNN "Comment"
+F5 "T&T CONNECTION" -15 -435 50 H I C CNN "Manufacturer"
+F6 "PHSS-40-6/3" -15 -510 50 H I C CNN "ManufacturerPartNo"
+F7 "LOM-43-00-73" 10 -110 50 H I C CNN "Supplier"
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+S 0 30 150 -30 0 1 10 f
+X Pin_1 1 -100 0 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# PinHeader_01x02_Male
+#
+DEF PinHeader_01x02_Male J 0 40 Y N 1 F N
+F0 "J" 10 120 50 H V C CNN
+F1 "PinHeader_01x02_Male" 50 -300 50 H I C CNN
+F2 "Connectors:PinHeader_1x02_P2.54mm_Vertical" 25 -230 50 H I C CNN
+F3 "" 90 -150 50 H I C CNN
+F4 "PinHeader_01x02_Male" 0 -375 50 H I C CNN "Comment"
+F5 "T&T CONNECTION" -25 -475 50 H I C CNN "Manufacturer"
+F6 "PHSS-40-6/3" -25 -550 50 H I C CNN "ManufacturerPartNo"
+F7 "LOM-43-00-73" 0 -150 50 H I C CNN "Supplier"
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+S 0 80 150 -80 0 1 10 f
+X Pin_1 1 -100 50 100 R 50 50 1 1 P
+X Pin_2 2 -100 -50 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# PinHeader_01x06_Male
+#
+DEF PinHeader_01x06_Male J 0 40 Y N 1 F N
+F0 "J" 10 320 50 H V C CNN
+F1 "PinHeader_01x06_Male" 50 -500 50 H I C CNN
+F2 "Connectors:PinHeader_1x06_P2.54mm_Vertical" 25 -430 50 H I C CNN
+F3 "" 90 50 50 H I C CNN
+F4 "PinHeader_01x06_Male" 0 -575 50 H I C CNN "Comment"
+F5 "T&T CONNECTION" -25 -675 50 H I C CNN "Manufacturer"
+F6 "PHSS-40-6/3" -25 -750 50 H I C CNN "ManufacturerPartNo"
+F7 "LOM-43-00-73" 0 -350 50 H I C CNN "Supplier"
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+S 0 280 150 -280 0 1 10 f
+X Pin_1 1 -100 250 100 R 50 50 1 1 P
+X Pin_2 2 -100 150 100 R 50 50 1 1 P
+X Pin_3 3 -100 50 100 R 50 50 1 1 P
+X Pin_4 4 -100 -50 100 R 50 50 1 1 P
+X Pin_5 5 -100 -150 100 R 50 50 1 1 P
+X Pin_6 6 -100 -250 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# USB-B-04PFHTW
+#
+DEF USB-B-04PFHTW J 0 40 Y Y 1 F N
+F0 "J" -150 400 50 H V L CNN
+F1 "USB-B-04PFHTW" -350 -675 50 H I L CNN
+F2 "Connectors:T-T_USB-B-04PFHTW" 25 -300 50 H I C CNN
+F3 "" 200 150 50 V I C CNN
+F4 "USB-B-04PFHTW" -25 -450 50 H V C CNN "Comment"
+F5 "T&T CONNECTION" -25 -375 50 H I C CNN "Manufacturer"
+F6 "USB-A-S04PFHTW;MX-67068-8000;" 0 -525 50 H I C CNN "ManufacturerPartNo"
+F7 "LOM-43-14-75;TME-MX-67068-8000;" 50 -600 50 H I C CNN "Supplier"
+$FPLIST
+ USB*
+$ENDFPLIST
+DRAW
+S -150 -250 150 250 0 1 10 f
+X VBUS 1 -250 200 100 R 50 50 1 1 w
+X D- 2 -250 100 100 R 50 50 1 1 B
+X D+ 3 -250 0 100 R 50 50 1 1 B
+X GND 4 -250 -100 100 R 50 50 1 1 w
+X Shield 5 -250 -200 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library
