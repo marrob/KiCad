@@ -344,7 +344,7 @@
     (property "Footprint" "Passive:OMRON G6H-2-100" (id 2) (at 0 7.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "${KNV_DATASHEET}\\AZ850.pdf" (id 3) (at 1.27 -19.05 0)
+    (property "Datasheet" "${KNV_DATASHEET}\\ZETTLER AZ850-24.pdf" (id 3) (at 1.27 -19.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Comment" "G6H-2-100" (id 4) (at 5.08 -15.24 0)
@@ -366,6 +366,38 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "OMRON G6H-2-100_0_1"
+      (polyline
+        (pts
+          (xy 1.27 -10.16)
+          (xy 3.81 -7.62)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.778 -8.382)
+          (xy 2.286 -8.382)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 2.032 -8.128)
+          (xy 2.032 -8.636)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 3.175 -9.398)
+          (xy 3.175 -9.398)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
       (rectangle (start 1.27 -7.62) (end 3.81 -10.16)
         (stroke (width 0.1524) (type default) (color 0 0 0 0))
         (fill (type background))

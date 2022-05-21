@@ -1,6 +1,6 @@
 (footprint "F1812" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 622B8CD1)
+  (tedit 62891E02)
   (tags "fuse")
   (attr smd)
   (fp_text reference "REF**" (at 0 -2.65) (layer "F.SilkS")
@@ -23,10 +23,6 @@
   (fp_line (start 2.95 -1.95) (end 2.95 1.95) (layer "F.CrtYd") (width 0.05) (tstamp 5696a53f-2631-4279-8564-21adeaab997c))
   (fp_line (start -2.95 -1.95) (end 2.95 -1.95) (layer "F.CrtYd") (width 0.05) (tstamp 706bece9-b980-4420-a866-a63a48a63c89))
   (fp_line (start 2.95 1.95) (end -2.95 1.95) (layer "F.CrtYd") (width 0.05) (tstamp f57b03a6-125b-453a-8f2a-24b446ebba66))
-  (fp_line (start -2.25 -1.6) (end 2.25 -1.6) (layer "F.Fab") (width 0.1) (tstamp 17540f0f-267d-4f0f-8f00-5539a89bd637))
-  (fp_line (start 2.25 -1.6) (end 2.25 1.6) (layer "F.Fab") (width 0.1) (tstamp 36d7002b-bf2e-428b-a91a-b4ed755cac59))
-  (fp_line (start 2.25 1.6) (end -2.25 1.6) (layer "F.Fab") (width 0.1) (tstamp 8a2de683-0cbb-47f9-b48d-61ac1c60565d))
-  (fp_line (start -2.25 1.6) (end -2.25 -1.6) (layer "F.Fab") (width 0.1) (tstamp 8f0e1ea6-d278-4117-9e02-aaadcc59362e))
   (pad "1" smd rect (at -2.1375 0) (size 1.125 3.4) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp a5d527e3-93e5-4f7c-9403-79aabfbdc470))
   (pad "2" smd rect (at 2.1375 0) (size 1.125 3.4) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 92587ea2-e589-4cd0-a110-fdbbe9573c25))
   (model "${KNV_MODELS}/F1812.step"
