@@ -2161,7 +2161,7 @@
     (property "Footprint" "Connectors:Terminal Block 01x08 P3.81 Horizontal" (id 2) (at -20.32 35.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "${KNV_DATASHEET}\\" (id 3) (at 0 -22.86 0)
+    (property "Datasheet" "${KNV_DATASHEET}\\DEGSON 15EDGRC-3.81.pdf" (id 3) (at 0 -22.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Comment" "15EDGRC3.81-08P" (id 4) (at 0 -30.48 0)

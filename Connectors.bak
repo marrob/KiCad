@@ -2158,7 +2158,7 @@
     (property "Value" "Terminal Block 01x08 P3.81 Horizontal" (id 1) (at 0 -34.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "Connectors:Terminal Block 1x08 P3.81 Horizontal" (id 2) (at -20.32 35.56 0)
+    (property "Footprint" "Connectors:Terminal Block 01x08 P3.81 Horizontal" (id 2) (at -20.32 35.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "${KNV_DATASHEET}\\" (id 3) (at 0 -22.86 0)
