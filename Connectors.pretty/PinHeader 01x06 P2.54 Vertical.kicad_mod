@@ -1,12 +1,12 @@
-(footprint "PinHeader 1x06 P2.54mm Vertical" (version 20211014) (generator pcbnew)
+(footprint "PinHeader 01x06 P2.54 Vertical" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 625B2489)
+  (tedit 6289EFFE)
   (attr through_hole)
   (fp_text reference "REF**" (at 0 -8.68) (layer "F.SilkS")
     (effects (font (size 0.7 0.7) (thickness 0.17)))
     (tstamp 309cce7c-76a5-40f7-bf52-1289c4234f67)
   )
-  (fp_text value "PinHeader 1x06 P2.54mm Vertical" (at 0 8.68) (layer "F.Fab") hide
+  (fp_text value "PinHeader 01x06 P2.54 Vertical" (at 0 8.68) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 2b710c32-5910-4fb5-8e24-08ea454479d9)
   )
@@ -28,7 +28,7 @@
   (pad "4" thru_hole oval (at 0 1.27) (size 1.7 1.3) (drill 1) (layers *.Cu *.Mask) (tstamp 81b0798c-3dcf-44aa-bdff-27c7582e7f35))
   (pad "5" thru_hole oval (at 0 3.81) (size 1.7 1.3) (drill 1) (layers *.Cu *.Mask) (tstamp 9a1ee4ae-e660-49f2-995b-2f9e786a47d2))
   (pad "6" thru_hole oval (at 0 6.35) (size 1.7 1.3) (drill 1) (layers *.Cu *.Mask) (tstamp d7d36348-4d86-4887-8ce8-77f3dc661022))
-  (model "${KNV_MODELS}/PinHeader_1x06_P2.54mm_Vertical.step"
+  (model "${KNV_MODELS}/PinHeader 01x06 P2.54 Vertical.step"
     (offset (xyz 0 6.35 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

@@ -1,12 +1,12 @@
-(footprint "PinHeader 1x02 P2.54mm Vertical" (version 20211014) (generator pcbnew)
+(footprint "PinHeader 01x02 P2.54 Vertical" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 625B2422)
+  (tedit 6289EFA2)
   (attr through_hole)
   (fp_text reference "REF**" (at 0 -3.6) (layer "F.SilkS")
     (effects (font (size 0.7 0.7) (thickness 0.17)))
     (tstamp 31a2ebc5-5e48-4c9f-8faf-f8514423da76)
   )
-  (fp_text value "PinHeader 1x02 P2.54mm Vertical" (at 0 3.6) (layer "F.Fab") hide
+  (fp_text value "PinHeader 01x02 P2.54 Vertical" (at 0 3.6) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 9bbfb08d-99f6-488c-9cb1-4f610e8a9435)
   )
